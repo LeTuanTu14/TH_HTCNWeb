@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <nav align="center">
+        <hr>
+        <br>
+        <h2>HTML Image</h2>
+        <img src="../anh/pic_trulli.jpg" width="500" height="333" alt="My Place" usemap="#imagemap">
+
+        <map name="imagemap">
+            <area shape="rect" coords="255,216,292,286" href="A.html" alt="Sun">
+            <area shape="circle" coords="72,91,15" href="B.html" alt="Mercury">
+        </map>
+        <hr>
+        <table border="1">
+            <tr>
+                <th bgcolor="cyan">Character</th>
+                <th bgcolor="cyan">HTML Code</th>
+                <th bgcolor="cyan">Character Code</th>
+                <th bgcolor="cyan">Description of Character</th>
+            </tr>
+            <tr>
+                <td bgcolor="khaki">&#140</td>
+                <td bgcolor="khaki">&#140;</td>
+                <td bgcolor="khaki"></td>
+                <td bgcolor="khaki">capital OE ligature</td>
+            </tr>
+            <tr>
+                <td bgcolor="khaki">&#145</td>
+                <td bgcolor="khaki">&#145;</td>
+                <td bgcolor="khaki">&lsquo;</td>
+                <td bgcolor="khaki">left curly quote mark</td>
+            </tr>
+            <tr>
+                <td bgcolor="khaki">&#146</td>
+                <td bgcolor="khaki"><b>&#146;</b></td>
+                <td bgcolor="khaki">&rsquo;</td>
+                <td bgcolor="khaki">right curly quote mark/apostrophe</td>
+            </tr>
+            <tr>
+                <td bgcolor="khaki">&#147</td>
+                <td bgcolor="khaki">&#147;</td>
+                <td bgcolor="khaki">&ldquo;</td>
+                <td bgcolor="khaki">left curly quote marks</td>
+            </tr>
+        </table>
+        <hr>
+        <details open>
+            <summary>IUH</summary>
+            <p>W3Schools is optimized for learning and training.
+                <br>Examples might be simplified to improve reading and learning.
+                <br> Tutorials, references, and examples are constantly reviewed to avoid errors,
+                <br> but we cannot warrant full correctness of all content.
+                <br> While using W3Schools, you agree to have read and accepted our terms of use,
+                <br> cookie and privacy policy.
+            <details open>
+                <summary>FIT-IUH</summary>
+            </details>
+            </p>
+        </details>
+    </nav>
+    <nav style="margin-left: 20px;">
+        <hr>
+        <p align="left">
+            <img src="../anh/pic_trulli.jpg" width="100px" height="100px" align="left">
+        <h3 align="left">mozilla</h3>
+        <h1 align="left">Drumbeat</h1>
+        </p><br>
+        <h2>About</h2> <br>
+        W3Schools is optimized for learning and training.
+        <br>Examples might be simplified to improve reading and learning.
+        <br> Tutorials, references, and examples are constantly reviewed to avoid errors,
+        <br> but we cannot warrant full correctness of all content.
+        <br> While using W3Schools, you agree to have read and accepted our terms of use,
+        <br> cookie and privacy policy.
+        <br><br>
+        <h3>Projects</h3><br>
+        <ul type="disc" style="margin-left: 0px;">
+            <li type="disc">Featured
+                <ul type="circle">
+                    <li type="circle" style="margin-left: 20px;"><a href="https://www.w3schools.com">School of
+                            Webcraft</a></li>
+                    <li type="circle" style="margin-left: 20px;"><a href="https://www.w3schools.com">Crisis Commons</a>
+                    </li>
+                </ul>
+            </li>
+            <li type="disc">Latest
+                <ul type="circle">
+                    <li type="circle" style="margin-left: 20px;"><a href="https://www.w3schools.com">JessyInk</a></li>
+                    <li type="circle" style="margin-left: 20px;"><a href="https://www.w3schools.com">PrivacyCamp</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <br><br>
+        <a href="https://www.twitter.com">Twitter</a>|<a href="https://www.facebook.com">Facebook</a>|<a
+            href="https://www.flickr.com">Flickr</a>
+        <br>
+
+    </nav>
+    <hr>
+    Name:<br>
+    <input type="text" name="name" placeholder="Thanh Van"> <br>
+    <input type="submit" value="Submit" style="margin-top: 10px;">
+    <br>
+    <hr>
+    <form action="#" id="form2" style="margin-left: 20px;">
+        <br>
+        Name: <br>
+        <input type="text" name="namee" placeholder="Thanh Van" size="20" maxlength="20"> <br>
+        Telephone Number: <br>
+        <input type="text" name="phone" placeholder="011111111" size="20" maxlength="20"> <br>
+        Email: <br>
+        <input type="email" name="mail" placeholder="abc@gmail.com" size="20" maxlength="20"> <br>
+        Favorite Color: <br>
+        <input type="color" name="phone" size="20" maxlength="20"> <br>
+        Date of Birth: <br>
+        <input type="date" name="bdate" size="20" maxlength="20"> <br>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+        <br>
+    </form>
+    <hr>
+    <br>
+    <nav style="height: auto; width: 600px;">
+        <h1>Contact Us</h1>
+        <br>
+        <fieldset>
+            <legend>Your message:</legend>
+            <table>
+                <tr>
+                    <td><label for="emailTo">To</label></td>
+                    <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label for="emailFrom">From</label></td>
+                    <td><input type="text" name="txtFrom" id="emailFrom" size="20" tabindex="1" maxlength="250"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="emailBody">Message</label></td>
+                    <td>
+                        <textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us:</legend>
+            <table>
+                <tr>
+                    <td><label>How did you hear of us</label></td>
+                    <td><select>
+                            <option>Google</option>
+                            <option>Yahoo</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label>Newsletter</label></td>
+                    <td> <input type="checkbox" name="mh">With our "Try it Yourself" editor, you can edit the HTML code
+                        and view the result</td>
+                </tr>
+            </table>
+
+        </fieldset>
+        <input type="submit" value="Send Message">
+    </nav>
+    <br>
+    <hr>
+    <br>
+    <center>
+        <form>
+            Please indicate your area of interest:<br>
+            <input type="text" name="name" value="" size="20" maxlength="20" list="tech">
+            <datalist id="tech">
+                <option value="CSS"></option>
+                <option value="HTML"></option>
+                <option value="JavaScript"></option>
+            </datalist>
+        </form>
+    </center>
+    <br>
+    <hr>
+    <br>
+    <center>
+        <video poster="../anh/pic_trulli.jpg" controls style="width: 500px; height: 300px;">
+            <source src="../video/Seoul - 21985.mp4" type="video/mp4" style="width: 500px; height: 300px;">
+        </video>
+    </center>
+    <br>
+    <hr>
+    <br>
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2rvSGE_4Ke0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </center>
+    <br>
+
+</body>
+
+</html>
