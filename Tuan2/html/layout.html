@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: auto;
+            padding: 0px;
+        }
+        
+        body {
+            background-image: url(../img/background.jpg);
+        }
+        
+        .trang {
+            height: 600px;
+            width: 1080px;
+        }
+        
+        nav {
+            height: 50px;
+            width: 100%;
+            background-color: chartreuse;
+        }
+        
+        header {
+            height: 150px;
+            width: 100%;
+            background-image: url(../img/bgheader.png);
+        }
+        
+        .body {
+            height: 350px;
+            width: 100%;
+        }
+        
+        .sec0 {
+            height: 350px;
+            width: 30%;
+            background-color: aquamarine;
+            float: left;
+        }
+        
+        section {
+            height: 350px;
+            width: 70%;
+            background-color: wheat;
+            float: left;
+        }
+        
+        .sec1 {
+            height: 350px;
+            width: 50%;
+            background-color: tomato;
+            float: left;
+        }
+        
+        .sec2 {
+            height: 350px;
+            width: 50%;
+            background-color: thistle;
+            float: right;
+        }
+        
+        footer {
+            height: 50px;
+            width: 100%;
+            background-color: rgb(29, 106, 170);
+        }
+        
+        .menu li {
+            width: 200px;
+            background-color: chartreuse;
+            line-height: 50px;
+            float: left;
+            list-style: none;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        a {
+            text-decoration: none;
+            color: purple;
+        }
+        
+        li:hover {
+            background-color: yellowgreen;
+        }
+        
+        li:hover>a {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="trang">
+        <nav>
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">HEPL</a></li>
+            </ul>
+        </nav>
+        <header></header>
+        <div class="body">
+            <div class="sec0"></div>
+            <section>
+                <div class="sec1"></div>
+                <div class="sec2"></div>
+            </section>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
